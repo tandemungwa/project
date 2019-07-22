@@ -25,6 +25,7 @@ Install requests in conda environment
 Install prettytable in conda environment
 <br/>
 <code> conda config --add channels conda-forge </code>
+<br/>
 <code> conda install prettytable </code>
 
 <br/>
