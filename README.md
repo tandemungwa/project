@@ -1,5 +1,7 @@
 <h1> Dependencies </h1>
 
+First, clone the project into a folder using git clone.
+
 Prior to running scripts, setup the following Conda environment: 
 
 Create conda environemnt with (specifically) Python 3 
