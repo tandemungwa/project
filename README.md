@@ -1,4 +1,5 @@
 <h1> Dependencies </h1>
+<b> NOTE</b>: This was made on Windows 10.
 
 First, clone the project into a folder using <code>git clone</code>.
 
