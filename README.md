@@ -1,6 +1,6 @@
 <h1> Dependencies </h1>
 
-First, clone the project into a folder using git clone.
+First, clone the project into a folder using <code>git clone</code>.
 
 Prior to running scripts, setup the following Conda environment: 
 
