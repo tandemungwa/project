@@ -45,7 +45,7 @@ On the first run, the script will:
 1. Scrape data from <a href="https://www.themoviedb.org/?language=en-US">TMDb API</a>
 2. Save data into <code>data.csv</code>
 3. Start and connect to sqlite database <code>database.db</code>, which is stored locally
-4. Create then populate <code>database.db</code> tables with data from <code>data.csv</code>
+4. Populate <code>database.db</code> tables with data from <code>data.csv</code>
 5. Run queries. 
   
 On subsequent runs, because <code>data.csv</code> and <code>database.db</code> already exist, 1-4 are effectively skipped, and the queries will run. This allows you to modify the queries and get the results without having to wait for the API calls & for the SQL table to populate. 
