@@ -22,13 +22,12 @@ Install requests in conda environment
 <code> conda install -c anaconda requests  </code>
 <br/>
 
-Install prettytable in conda environment
+Add conda-forge channel, then install prettytable in conda environment
 <br/>
 <code> conda config --add channels conda-forge </code>
 <br/>
 <code> conda install prettytable </code>
 
-<br/>
 <br/>
 <h1> Database </h1>
 For a database, I used <code>sqlite3</code> in python, which creates a <code>.db</code> file which is queried from the python code with standard SQL commands. This removes the need for an external database client. 
