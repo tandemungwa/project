@@ -41,7 +41,7 @@ def queryTwo(c):
     # If query is modified, make sure to adjust prettytable accordingly
     x = PrettyTable()
     x.field_names = ['Title', 'Released',
-                     'Budget', 'Cost over below competitor', ' Budget Rank']
+                     'Budget', 'Cost over nearest competitor', ' Budget Rank']
     x.align['Title'] = 'l'
 
     for i, (title,  released, budget, comp, rank) in enumerate(d):
