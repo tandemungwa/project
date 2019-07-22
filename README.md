@@ -45,12 +45,12 @@ On the first run, the script will:
 3. Start and connect to sqlite database <code>database.db</code>, which is stored locally
 4. Create then populate <code>database.db</code> tables with data from <code>data.csv</code>
 5. Run queries. 
-
-<b>NOTE</b>: The queries use PrettyTable to print neat tables in the terminal, make sure the terminal window is wide enough or the tables will not display properly.
   
 On subsequent runs, because <code>data.csv</code> and <code>database.db</code> already exist, 1-5 are effectively skipped, and the queries will run. This allows you to modify the queries and get the results without having to wait for the API calls & for the SQL table to populate. 
 
 To reset the program, run reset.py, which deletes <code>data.csv</code> and <code>database.db</code>, forcing the program to begin from step 1. 
+
+<b>NOTE</b>: The queries use PrettyTable to print neat tables in the terminal, make sure the terminal window is wide enough or the tables will not display properly.
 
 
 
