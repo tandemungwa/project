@@ -28,7 +28,7 @@ Add conda-forge channel, then install prettytable in conda environment
 <br/>
 <code> conda install prettytable </code>
 
-
+<br/>
 <h1> Database </h1>
 For a database, I used <code>sqlite3</code> in python, which creates a <code>.db</code> file which is queried from the python code with standard SQL commands. This removes the need for an external database client. 
 <br/>
